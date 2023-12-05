@@ -47,7 +47,7 @@ def minNum(KellyDaily, SamDaily, diferencia  ):
             if Kelly >= Sam:
                 cerrar = 1
         
-        return print(f"Kelly tardara {dias} dias en alcanzar a Sam")
+        return print(f"Kelly tardara almenos {dias} dias en alcanzar a Sam")
             
 system("clear")    
 minNum(5,3,5)
